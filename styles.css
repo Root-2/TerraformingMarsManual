@@ -1,0 +1,294 @@
+.sidebar {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("https://www.myfreetextures.com/wp-content/uploads/2014/10/silver-brushed-metal-texture-900x900.jpg");
+  filter: brightness(1.25);
+  padding-top: 60px;
+  border-right: ridge grey 5px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-family: trebuchet ms;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  font-stretch: expanded;
+}
+
+a {
+  text-transform: uppercase;
+  font-family: trebuchet ms;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1::after {
+ content: "";
+ display: block;
+ width: 90%;
+ border: #5c0200 solid 4px;
+ align-items: center;
+ margin: auto;
+ margin-top: 7px; 
+}
+
+h3 {
+  font-family: times new roman;
+  font-weight: normal;
+  font-size: 1.75rem;
+}
+
+
+.centered {
+  text-align: center;
+  text-indent: 0px;
+  width: 100%;
+
+}
+
+.no-indent {
+  text-indent: 0px;
+}
+
+.intro {
+  font-size: 1.1rem;
+}
+
+p {
+    text-indent: 25px;
+    font-family: times new roman;
+}
+
+section {
+  width: 90%;
+  margin: auto;
+  
+}
+
+.winnertext {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.bordered {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  border: #5c0200 solid 5px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 245, 0.9)
+  
+}
+
+body {
+  background: url("http://cdn.sci-news.com/images/enlarge9/image_10495e-Bosporos-Planum.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.gameboard {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.imgcontainer {
+  position: relative;
+}
+
+.imglabel {
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  border: black solid 2px;
+  color: black;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-family: trebuchet ms;
+  font-size: 1.25rem;
+}
+
+.centerimg {
+  float: left;
+  vertical-align: middle;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.imgcredit {
+  position: relative;
+  font-weight: bold;
+  font-family: trebuchet ms;
+  font-size: 1.25rem;
+  writing-mode: vertical-lr;
+  vertical-align: middle;
+  text-align: right;
+  height: 35%;
+}
+
+
+.counter {
+  display: inline;
+  max-width: 10px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  border: black solid 2px;
+  text-align: center;
+  font-weight: bold;
+  font-family: trebuchet ms;
+  margin-right: 5px;
+}
+
+.countertext {
+  padding: 5px;
+}
+
+b {
+  letter-spacing: 0.1px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-top: 5px;
+}
+
+.introbanner {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border: rgba(100, 100, 100, 0.4) 3px outset;
+  box-shadow: 2px 2px 10px #222222;
+  margin-top: 50px;
+}
+
+
+.navbarlist{
+  padding: 0;
+  text-align: center;
+}
+
+.navbarlist li {
+  margin: auto;
+  width: 97%;
+  height: 20px;
+}
+
+.navbarlist a {
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 47%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.inline-image {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+.nav-cont {
+  box-sizing: border-box;
+  display: block;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    margin-top: 2px;
+    padding-bottom: px;
+}
+
+.nav-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.imgur.com/OXxtmzc.png);
+    filter: blur(4px) grayscale(1);
+    
+}
+
+
+a:active div {
+  background-color: rgba(255,0,0,0.5)
+}
+
+a:hover div { 
+  box-sizing: border-box;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: rgba(57, 177, 211, 0.5);
+ 
+}
+
+.nav-filter {
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(119,190,5,0.5);
+  border: grey ridge 3px;
+}
+
+.bottomcurved {
+  border-bottom-right-radius: 50%  10px;
+  border-bottom-left-radius: 50% 10px;
+}
+
+.topcurved {
+  border-top-right-radius: 50%  10px;
+  border-top-left-radius: 50% 10px;
+}
+
+a:active div {
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  background-color: rgba(255,0,0,0.5)
+}
+
+.nav-txt {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.infobox {
+  display: flex-box;
+  background-color: #fedcbd;
+  border: black 4px solid;
+  width: 55%;
+  flex-wrap: nowrap;
+}
+
+.infobox p {
+  overflow: visible;
+  padding: 2px 10px;
+  margin: 0;
+  line-height: 18px;
+}
