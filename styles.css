@@ -1,6 +1,7 @@
 .sidebar {
   height: 100%;
   width: 25%;
+  max-width: 250px;
   position: fixed;
   top: 0;
   left: 0;
@@ -85,8 +86,7 @@ section {
 }
 
 body {
-  background: url("http://cdn.sci-news.com/images/enlarge9/image_10495e-Bosporos-Planum.jpg");
-  background-repeat: no-repeat;
+  background: url(marsbackground.jpg);
   background-attachment: fixed;
   min-height: 100%;
   min-width: 100%;
